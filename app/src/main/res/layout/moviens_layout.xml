@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MoviensActivity">
+
+    <TextView
+
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moviens"/>
+
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableLeft="@drawable/baseline_person"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:maxLength="80"
+        android:padding="20sp" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:drawableLeft="@drawable/baseline_lock"
+        android:hint="Passoword"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp" />
+
+    <TextView
+        android:id="@+id/txtEsqueceuSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="20sp"
+        android:text="Esqueceu sua senha?" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in with facebook"/>
+
+
+</LinearLayout>
