@@ -21,6 +21,7 @@
             android:src="@drawable/baseline_chevron" />
 
         <TextView
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -29,6 +30,7 @@
     </LinearLayout>
 
     <TextView
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -40,6 +42,7 @@
         android:textSize="50sp" />
 
     <EditText
+        android:textColorHint="@color/white"
         android:id="@+id/edtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,6 +54,7 @@
         android:padding="20sp" />
 
     <EditText
+        android:textColorHint="@color/white"
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,6 +67,7 @@
         android:padding="20sp" />
 
     <Button
+        android:backgroundTint="#EC3737"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -70,6 +75,7 @@
         android:paddingLeft="100sp" />
 
     <TextView
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
