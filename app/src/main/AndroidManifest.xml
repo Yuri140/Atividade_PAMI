@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".SolActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SolActivity"
+            android:exported="false" />
+        <activity
             android:name=".TangedcoActivity2"
             android:exported="false" />
         <activity
