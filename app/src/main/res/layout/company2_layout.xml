@@ -17,12 +17,14 @@
 
     <EditText
         android:layout_width="match_parent"
+        android:textColorHint="@color/white"
         android:layout_height="wrap_content"
         android:hint="User Name"
         android:drawableEnd="@drawable/baseline_person"
         />
     <EditText
         android:layout_width="match_parent"
+        android:textColorHint="@color/white"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:drawableEnd="@drawable/baseline_key"
@@ -30,6 +32,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="16sp"
+        android:textColor="@color/white"
         android:text="Remember Password"
         android:textSize="11sp"
         />
@@ -52,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginLeft="140sp"
-            android:layout_marginTop=""
+            android:textColor="@color/white"
             android:text="Forget Password?" />
     </LinearLayout>
 
@@ -61,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dont have account?"
+        android:textColorHint="@color/white"
         android:layout_gravity="end"
         android:layout_marginRight="39sp"/>
     <TextView
@@ -70,6 +74,7 @@
         android:layout_gravity="end"
         android:textStyle="bold"
         android:textSize="16sp"
+        android:textColorHint="@color/white"
         android:layout_marginRight="39sp"/>
     <ImageView
         android:layout_width="40dp"
