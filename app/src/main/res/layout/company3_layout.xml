@@ -66,17 +66,15 @@
 
     <CheckBox
         android:layout_width="wrap_content"
-        android:layout_height="17sp"
-        android:layout_gravity="center
-"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Allow Term & Conditions"
-        android:textColor="@color/white"
+        android:textColor="@color/white"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="25dp"
         android:backgroundTint="#FF7C18"
         android:text="Sign Up" />
 
